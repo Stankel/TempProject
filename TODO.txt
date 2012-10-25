@@ -1,0 +1,6 @@
+Flere fjender på skærmen
+Bevæge sig nedad
+Fjender skyde
+Score ???
+Tydlig effekt på collision
+CD på skud
