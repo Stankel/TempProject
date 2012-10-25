@@ -5,6 +5,7 @@ public class PlayerBulletScript : MonoBehaviour
 {
     public float speed = 30;
 
+
     void Update()
     {
         transform.Translate(Vector3.up * speed * Time.deltaTime);
@@ -18,6 +19,7 @@ public class PlayerBulletScript : MonoBehaviour
     {
         if (collider.transform.tag == "Enemies")
         {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().bodyCount++;
             Destroy(collider.gameObject);
             Destroy(gameObject);
         }
