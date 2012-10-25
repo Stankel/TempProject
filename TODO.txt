@@ -1,2 +1,1 @@
-Score ???
 Tydlig effekt på collision
