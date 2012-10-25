@@ -6,7 +6,6 @@ public class Player : MonoBehaviour
     public float speed = 10;
     public GameObject bullet;
     bool shotCD = false;
-    public int bodyCount = 0;
 
     const int gameBorder = 6;
     const float shotCDTime = 0.2f;

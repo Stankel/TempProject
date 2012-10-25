@@ -19,7 +19,7 @@ public class PlayerBulletScript : MonoBehaviour
     {
         if (collider.transform.tag == "Enemies")
         {
-            GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().bodyCount++;
+            GameObject.Find("BackGround").GetComponent<GameManager>().bodyCount++;
             Destroy(collider.gameObject);
             Destroy(gameObject);
         }

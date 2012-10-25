@@ -48,6 +48,8 @@
      <Compile Include="Assets\Scripts\Char. scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Char. scripts\EnemyControllerScript.cs" />
      <Compile Include="Assets\Scripts\Char. scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Levels\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Levels\LoseScript.cs" />
      <Compile Include="Assets\Scripts\Levels\Spawn.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

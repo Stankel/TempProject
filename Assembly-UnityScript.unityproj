@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{643E8C9D-4125-F1A0-8287-D72DC53DF135}</ProjectGuid>
+	<ProjectGuid>{DA4A925E-EFDC-1569-5D68-8EE3F0AFA344}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,13 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BulletScripts\PlayerBulletScript.cs" />
-     <Compile Include="Assets\Scripts\Char. scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\Char. scripts\EnemyControllerScript.cs" />
-     <Compile Include="Assets\Scripts\Char. scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\Levels\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Levels\LoseScript.cs" />
-     <Compile Include="Assets\Scripts\Levels\Spawn.cs" />
+     <Compile Include="Assets\Scripts\Levels\NewBehaviourScript.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
